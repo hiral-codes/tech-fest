@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'Liquid Night';
+    src: url('./LIQUIDNIGHT.ttf');
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Liquid Night';
+}
+header{
+    width: 100%;
+    height: 105px;
+    background: none;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-right: 2rem;
+    background-color: black;
+    right: 0;
+}
+header nav ul{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+header nav ul li{
+    list-style: none;
+}
+header nav ul li a{
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+    font-weight: 100;
+    letter-spacing: 0.2rem;
+}
+header nav ul li button{
+    font-family: 'Liquid Night';
+    background-color: #9A5B76;
+    padding: 14px 24px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    font-weight: 100;
+    letter-spacing: 0.2rem;
+    color: white;
+}
+#home{
+    width: 100%;
+    padding-top: 105px;
+    text-align: center;
+    height:100svh;
+    background-image: url('./assets/Home-Background.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+#main-head{
+    letter-spacing: 0.2rem;
+    font-weight: 100;
+    padding-top: 2rem;
+    font-size: 1rem;
+}
+#tech{
+    font-size: 4rem;
+    letter-spacing: 0.3rem;
+    padding-top: 2rem;
+}
