@@ -21,10 +21,8 @@ header{
     justify-content: end;
     position: fixed;
     top: 0;
-    left: 0;
     padding-right: 2rem;
     background-color: black;
-    right: 0;
 }
 header nav ul{
     display: flex;
@@ -41,6 +39,10 @@ header nav ul li a{
     font-weight: 100;
     letter-spacing: 0.2rem;
 }
+header nav ul li a:hover{
+    color: #9A5B76;
+    transition: all 0.1s cubic-bezier(0.6, 0.04, 0.98, 0.335);
+}
 header nav ul li button{
     font-family: 'Liquid Night';
     background-color: #9A5B76;
@@ -51,9 +53,15 @@ header nav ul li button{
     font-weight: 100;
     letter-spacing: 0.2rem;
     color: white;
+    transition: all 0.1s cubic-bezier(0.6, 0.04, 0.98, 0.335);
+}
+header nav ul li button:hover{
+    background-color: white;
+    color: #9A5B76;
+    cursor: pointer;
 }
 #home{
-    width: 100%;
+    width: 100vw;
     padding-top: 105px;
     text-align: center;
     height:100svh;
